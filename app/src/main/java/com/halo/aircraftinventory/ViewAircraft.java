@@ -53,4 +53,8 @@ public class ViewAircraft extends AppCompatActivity {
             tbl.addView(row);
         }
     }
+
+    public void loadRemoteDatabase(){
+
+    }
 }
