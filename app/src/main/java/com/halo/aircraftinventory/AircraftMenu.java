@@ -45,7 +45,7 @@ public class AircraftMenu extends AppCompatActivity implements MenuFragment.OnFr
 
     @Override
     public void onFragmentInteraction(Uri uri) {
-        
+
     }
 
     @Override
