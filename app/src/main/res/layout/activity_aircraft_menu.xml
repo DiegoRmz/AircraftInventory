@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AircraftMenu">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        app:srcCompat="@mipmap/airplane_foreground" />
+
+    <Button
+        android:id="@+id/gotoCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoInsertAircraft"
+        android:text="Dar de alta" />
+
+    <Button
+        android:id="@+id/gotoViewDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoConsultAircraft"
+        android:text="Ver aeronaves" />
+
+    <Button
+        android:id="@+id/gotoUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoUpdateAircraft"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/gotoDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoDeleteAircraft"
+        android:text="Eliminar" />
+</LinearLayout>

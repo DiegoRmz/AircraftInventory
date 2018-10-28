@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AircraftInventory</string>
+    <string name="title_activity_delete_aircraft">DeleteAircraft</string>
+    <string name="delet">Borrar</string>
+</resources>
