@@ -2,4 +2,7 @@
     <string name="app_name">AircraftInventory</string>
     <string name="title_activity_delete_aircraft">DeleteAircraft</string>
     <string name="delet">Borrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

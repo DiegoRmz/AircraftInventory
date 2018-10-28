@@ -7,37 +7,10 @@
     android:orientation="vertical"
     tools:context=".AircraftMenu">
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <FrameLayout
+        android:id="@+id/menuFrame"
         android:layout_width="match_parent"
-        android:layout_height="261dp"
-        app:srcCompat="@mipmap/airplane_foreground" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/gotoCreate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="gotoInsertAircraft"
-        android:text="Dar de alta" />
-
-    <Button
-        android:id="@+id/gotoViewDB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="gotoConsultAircraft"
-        android:text="Ver aeronaves" />
-
-    <Button
-        android:id="@+id/gotoUpdate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="gotoUpdateAircraft"
-        android:text="Actualizar" />
-
-    <Button
-        android:id="@+id/gotoDelete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="gotoDeleteAircraft"
-        android:text="Eliminar" />
+    </FrameLayout>
 </LinearLayout>
