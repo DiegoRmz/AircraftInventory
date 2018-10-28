@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 if(!data.equals("[]")){
                     JSONArray jarr = new JSONArray(data);
                     JSONObject job = jarr.getJSONObject(0);
-                    
+
                     data = "Welcome, "+job.get("userName").toString();
                 }
 
